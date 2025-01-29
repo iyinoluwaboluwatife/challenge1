@@ -1,0 +1,321 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+*
+{
+  text-decoration: none;
+}
+
+
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800*/
+
+.manrope {
+  font-family: "Manrope", serif;
+  /*font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;*/
+}
+
+
+
+body{
+    background-color: #d8eaec;
+    padding: 30px 20px 30px 20px;
+}
+.body{
+    display: block;
+
+}
+.furniture{
+    width: 100%;
+    height:350px ;
+    background-image: url('images/furniture.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: table;
+    border-radius: 8px 8px 0 0;
+}
+.text{
+    background-color: #ffffff;
+    padding: 30px 30px 0 30px ; 
+    border-radius: 0 0 8px 8px;
+}
+.text h2{
+  font-family: Manrope;
+  font-size: 26px;
+  line-height:38px;
+  color: #111;
+}
+.text p{
+    font-family: Manrope;
+    font-size: 16px;
+    line-height:28px;
+    color: #111;
+    margin: 15px 0 15px 0;
+  }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.footer a{
+    margin-top: 20px;
+}
+.share{
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+    margin-right: -35px;
+    visibility: visible;
+   
+}
+.shareactive{
+    width: 32px;
+    height: 32px;
+    margin-top: 30px;
+    visibility: hidden;
+   
+}
+.avatar {
+   display: flex;
+   visibility: visible;
+}
+.avatar img{
+    width: 77px;
+    height: 77px;
+}
+.avatar p{
+    margin-left: 20px;
+    font-family: Manrope;
+}
+.socialmedia{
+    background-color: #141414;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    height: 80px;
+    float: right;
+    padding: 0 25px 0 25px;
+    border: 5px solid #141414;
+    border-radius: 0 0 8px 8px;
+    visibility: hidden;
+    margin: -85px -30px 0 0;
+}
+.socialmedia p{
+    font-size: 16px;
+    margin: 10px 0 10px 5px;
+    line-height: 30px;
+    color: #a29e9e;
+    font-family: Manrope;
+}
+.socialmedia img{
+    width: 18px;
+    height: 18px;
+    padding-left: 30px;
+}
+
+
+
+
+@media only screen and (min-width:1000px){
+
+body{
+    background-color: #d8eaec;
+}
+.body{
+    display: flex;
+    padding: 100px 120px 30px 130px;
+}
+.furniture{
+    width: 100%;
+    height: 430px;
+    background-image: url('images/furniture.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: table;
+    border-radius:  8px 0 0 8px ;
+}
+.text{
+    background-color: #ffffff;
+    padding: 30px ;
+    height: 370px;
+    width: 700px;
+    border-radius:  0 8px 8px 0 ;
+}
+.text h2{
+  font-family: Manrope;
+  font-size: 26px;
+  line-height:38px;
+  color: #111;
+}
+.text p{
+    font-family: Manrope;
+    font-size: 16px;
+    line-height:28px;
+    color: #111;
+    margin: 15px 0 15px 0;
+  }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.footer a{
+    margin-top: 20px;
+    
+}
+.share{
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+    margin-right: -35px;
+    visibility: hidden;
+}
+.shareactive{
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+    visibility: visible;
+   
+}
+.avatar {
+   display: flex;
+   visibility: visible;
+}
+.avatar img{
+    width: 77px;
+    height: 77px;
+}
+.avatar p{
+    margin-left: 20px;
+    font-family: Manrope;
+}
+.socialmedia{
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    float: right;
+    padding: 0 25px 0 25px;
+    border: 1px solid #141414;
+    border-radius: 8px;
+    margin: -128px -80px 0 0;
+    visibility: visible;
+    
+}
+.socialmedia p{
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+    line-height: 30px;
+    color: #a29e9e;
+    font-family: Manrope;
+    
+}
+.socialmedia img{
+    width: 18px;
+    height: 18px;
+    padding-left: 0px;
+}
+}
